@@ -1,0 +1,75 @@
+body {
+  background-color: #593aaf;
+}
+body h1 {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+.well {
+  background-color: red;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.random {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .random {
+    margin-top: 0;
+  }
+}
+
+.results > div {
+  display: none;
+}
+
+#result-count h3 {
+  font-family: "Hammersmith One", sans-serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #10b110;
+  font-weight: 400;
+}
+
+.results a {
+  color: #fafaf9;
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.results a:hover, .results a:focus {
+  color: #94C7B6;
+}
+.results a:hover .entry, .results a:hover .entry.odd, .results a:focus .entry, .results a:focus .entry.odd {
+  background-color: rgba(253, 249, 21, 0.1);
+}
+.results a .entry {
+  background-color: rgba(64, 59, 51, 0.8);
+  border-radius: 30px;
+  margin-bottom: 10px;
+  padding: 50px;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+.results a .entry.odd {
+  background-color: rgba(152, 143, 134, 0.8);
+}
+.results a .entry h2 {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 2.4em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #15ec1c;
+}
+.results a .entry p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Bree Serif", serif;
+  font-size: 1.3em;
+}
